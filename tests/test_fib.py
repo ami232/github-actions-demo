@@ -17,6 +17,5 @@ def test_negative_raises():
     with pytest.raises(ValueError):
         fib(-1)
 
-# def test_type_error():
-#     with pytest.raises(TypeError):
-#         TODO
+def test_type_error():
+    raise ValueError("Deliberate failure for testing purposes")

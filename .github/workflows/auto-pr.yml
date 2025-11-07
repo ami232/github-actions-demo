@@ -18,7 +18,7 @@ jobs:
         uses: peter-evans/create-pull-request@v5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          title: Automated: Sync develop → main
+          title: Automated Sync develop → main
           body: |
             This pull request was created automatically from the develop branch into main.
           base: main
